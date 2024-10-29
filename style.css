@@ -1,0 +1,101 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+}
+
+.container, #resumePage {
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 20px; /* Increased border radius */
+    padding: 25px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); /* Elevated shadow */
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    animation: fadeIn 1.2s ease-out, scaleUp 1.2s ease-out;
+}
+
+
+form {
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 12px;       /* More rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Softer shadow */
+    padding: 30px;             /* Increased padding */
+    max-width: 600px;
+    font-family: Arial, sans-serif; /* Modern font */
+    color: #333;               /* Darker font color for readability */
+}
+
+h1 {
+    text-align: center;
+    color: yellowgreen;
+}
+
+fieldset {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(189, 189, 141);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid rgb(160, 160, 97);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(119, 74, 14);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: blue;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(160, 160, 97);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resume-display h2 {
+    color: black;
+}
+
